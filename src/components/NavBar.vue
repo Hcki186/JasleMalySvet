@@ -14,13 +14,13 @@
                             <router-link class="nav-link" to="/">Domov</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link class="nav-link" to="/Informácie">Informácie</router-link>
+                            <router-link class="nav-link" to="/Informacie">Informácie</router-link>
                         </li>
                         <li class="nav-item">
                             <router-link class="nav-link" to="/Dokumenti">Dokumenti</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link class="nav-link" to="/Galéria">Galéria</router-link>
+                            <router-link class="nav-link" to="/Galeria">Galéria</router-link>
                         </li>
                         <li class="nav-item">
                             <router-link class="nav-link" to="/Kontakt">Kontakt</router-link>
