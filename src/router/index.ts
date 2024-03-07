@@ -10,7 +10,7 @@ const router = createRouter({
         import("../views/HomePage.vue")
     },
     {
-      path: "/Informácie ",
+      path: "/Informacie",
       name: "InfoPage",
       component: () =>
         import("../views/InfoPage.vue")
@@ -22,7 +22,7 @@ const router = createRouter({
         import("../views/DocumentPage.vue")
     },
     {
-      path: "/Galéria",
+      path: "/Galeria",
       name: "GalleryPage",
       component: () =>
         import("../views/GalleryPage.vue")
