@@ -1,0 +1,10 @@
+.GoogleMapLoc{
+    background-color: $Dark-Bg-Text;
+}
+
+
+.GoogleMapLoc .Modul iframe {
+    width: 100%;
+    height: 21.875em;
+    object-fit: cover;
+}

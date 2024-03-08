@@ -1,10 +1,10 @@
 <template>
-    <div>
-  
+    <div class="TopGap">
+        <GoogleMapLoc></GoogleMapLoc>
     </div>
-  </template>
+</template>
   
   <script setup lang="ts">
-  
+    import GoogleMapLoc from '../components/ContactPage/GoogleMapLoc.vue';
   </script>
   
