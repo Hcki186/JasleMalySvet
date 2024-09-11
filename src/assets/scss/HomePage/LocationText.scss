@@ -1,7 +1,12 @@
 .LocationText{
     background-color: $Dark-Bg-Text;
+    .Name{
+        text-align: center;
+        text-decoration: underline;
+    }
+    p{
+        text-align: center;
+        margin: 0 3em;
+    }
 }
 
-.BorderBuuttom {
-    border-bottom: 2px solid black;
-}

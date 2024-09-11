@@ -1,12 +1,12 @@
 <template>
     <div class="MotivationalText">
         <div class="container-md Modul">
-            <h2>
+            <h1>
                 Našou prioritou je <br>
                 vytvoriť vášmu dieťaťu <br>
                 pociť domova a úsmev <br>
                 na tvári.
-            </h2>
+            </h1>
         </div>
     </div>
 </template>

@@ -1,0 +1,27 @@
+.Scheduler{
+    background-color: $Dark-Bg-Text;
+    .row{
+        grid-gap: 2em;
+    }
+    .cards{
+        padding-top: 1em;
+        max-width: 15em;
+        min-width: 15em;
+        max-height: 18.1875em;
+        border-radius: 0.9em;
+        border: 2px solid lightgray;
+        background-color: darken($Dark-Bg-Text, 6%);
+    }
+    .img{
+        width: 10em;
+        height: 10em;
+    }
+}
+
+@media only screen and (max-width: 650x) {
+    .Scheduler{
+        .GG{
+            margin: 0 2em;
+        }
+    }
+}

@@ -5,22 +5,27 @@
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../../assets/img/ObjectPhoto/Audi-A7-Front-id5.png" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 ResImg"
+                        <img src="../../assets/img/ObjectPhoto/01.png" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 ResImg"
                          role="img" aria-label="Placeholder: Third slide"
                         preserveAspectRatio="xMidYMid slice" focusable="false" alt="foto">
                     </div>
                     <div class="carousel-item">
-                        <img src="../../assets/img/ObjectPhoto/Audi-A7-Side-id5.png" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 ResImg"
+                        <img src="../../assets/img/ObjectPhoto/02.png" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 ResImg"
                          role="img" aria-label="Placeholder: Third slide"
                         preserveAspectRatio="xMidYMid slice" focusable="false" alt="foto">
                     </div>
                     <div class="carousel-item">
-                        <img src="../../assets/img/ObjectPhoto/Audi-A7-Back-id5.png" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 ResImg"
+                        <img src="../../assets/img/ObjectPhoto/03.png" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 ResImg"
                          role="img" aria-label="Placeholder: Third slide"
                         preserveAspectRatio="xMidYMid slice" focusable="false" alt="foto">
                     </div>
                     <div class="carousel-item">
-                        <img src="../../assets/img/ObjectPhoto/Audi-A7-Interier-id5.png" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 ResImg"
+                        <img src="../../assets/img/ObjectPhoto/04.png" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 ResImg"
+                         role="img" aria-label="Placeholder: Third slide"
+                        preserveAspectRatio="xMidYMid slice" focusable="false" alt="foto">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../../assets/img/ObjectPhoto/05.png" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100 ResImg"
                          role="img" aria-label="Placeholder: Third slide"
                         preserveAspectRatio="xMidYMid slice" focusable="false" alt="foto">
                     </div>
@@ -41,3 +46,12 @@
 <script setup lang="ts">
 
 </script>
+
+<style >
+    @media only screen and (min-width: 1199px) {
+        .ImageCarousels .ResImg {
+            height: 38.125em;
+        }
+    }
+
+</style>

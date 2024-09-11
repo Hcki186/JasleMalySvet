@@ -5,6 +5,7 @@
     <LocationText></LocationText>
     <ImageCarousels></ImageCarousels>
     <OfferText></OfferText>
+    <Scheduler></Scheduler>
   </div>
 </template>
 
@@ -14,5 +15,6 @@ import MotivationalText from '../components/Homepage/MotivationalText.vue';
 import LocationText from "../components/Homepage/LocationText.vue";
 import ImageCarousels from '../components/Homepage/ImageCarousels.vue';
 import OfferText from '../components/Homepage/OfferText.vue';
+import Scheduler from '../components/Homepage/ScheduleCards.vue';
 </script>
 
