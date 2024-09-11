@@ -1,0 +1,59 @@
+{
+    "Contact": [
+        {
+            "phone": "0910545454",
+            "email": "malysvet@gmail.com",
+            "openHours":{
+                "day": ["Pondelok", "Utorok", "Streda", "Štvrtok", "Piatok", "Sobota", "Nedeľa"],
+                "time": ["7:00-16:30", "Zatvorené"]
+            },
+            "Owners": ["Bibiana Štalmachová", "Zuzana Lešková"]
+
+        }
+
+    ],
+    "schedule":[
+        {
+            "id": 0,
+            "img": "arrive.png",
+            "description": "Príchod detí, voľne aktivity",
+            "time": "7:00-8:30"
+        },
+        {
+            "id": 1,
+            "img": "sandwitch.png",
+            "description": "Hygiena, raňajky",
+            "time": "8:30-9:00"
+        },
+        {
+            "id": 2,
+            "img": "studi.png",
+            "description": "Vzdelávacie aktivity, pobyt vonku",
+            "time": "9:00-11:30"
+        },
+        {
+            "id": 3,
+            "img": "Obed.png",
+            "description": "Hygiena, obed",
+            "time": "11:30-12:15"
+        },
+        {
+            "id": 4,
+            "img": "sleep.png",
+            "description": "Poobedňajší spánok",
+            "time": "12:15-14:30"
+        },
+        {
+            "id": 5,
+            "img": "olovrant.png",
+            "description": "Olovrant",
+            "time": "14:30-15:00"
+        },
+        {
+            "id": 6,
+            "img": "home.png",
+            "description": "Voľná hravá činnosť, odchádzanie detí domov",
+            "time": "15:00-16:30"
+        }
+    ]
+}
