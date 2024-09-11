@@ -17,12 +17,6 @@
                             <router-link class="nav-link" to="/Informacie">Informácie</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link class="nav-link" to="/Dokumenti">Dokumenti</router-link>
-                        </li>
-                        <li class="nav-item">
-                            <router-link class="nav-link" to="/Galeria">Galéria</router-link>
-                        </li>
-                        <li class="nav-item">
                             <router-link class="nav-link" to="/Kontakt">Kontakt</router-link>
                         </li>
                     </ul>
