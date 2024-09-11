@@ -16,18 +16,6 @@ const router = createRouter({
         import("../views/InfoPage.vue")
     },
     {
-      path: "/Dokumenti",
-      name: "DokumentPage",
-      component: () =>
-        import("../views/DocumentPage.vue")
-    },
-    {
-      path: "/Galeria",
-      name: "GalleryPage",
-      component: () =>
-        import("../views/GalleryPage.vue")
-    },
-    {
       path: "/Kontakt",
       name: "ContactPage",
       component: () =>
