@@ -1,7 +1,32 @@
-.OfferText{
-    background-color: $Light-Bg-Text;
+.OfferText {
+    background-color: $text-light;
 
-    .offer{
-        margin: 0 2.2em;
+    .offer-item {
+        background-color: $text-light;
+        padding: 2rem;
+        border-radius: $border-radius;
+        text-align: center;
+        box-shadow: $box-shadow-light;
+        width: 100%;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        border: 1px solid $border-color;
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: $box-shadow;
+        }
+    }
+
+    .offer-icon {
+        font-size: 2.5rem;
+        color: $primary;
+        margin-bottom: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.6;
+        margin-bottom: 0;
     }
 }

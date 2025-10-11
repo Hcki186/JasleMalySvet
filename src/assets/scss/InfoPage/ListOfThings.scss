@@ -1,6 +1,71 @@
-.ListOfThings{
-    background-color: $Dark-Bg-Text;
-    .borrder{
-        margin: 0 2em;
+.ListOfThings {
+    .info-card {
+        width: 100%;
+        background-color: $text-light;
+        border-radius: $border-radius;
+        padding: 2rem;
+        box-shadow: $box-shadow;
+        border-top: 5px solid $primary;
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .card-icon {
+            font-size: 2rem;
+            color: $primary;
+            margin-right: 1rem;
+        }
+
+        h3 {
+            margin: 0;
+            color: $text-dark;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+            li {
+                position: relative;
+                padding-left: 1.5rem;
+                margin-bottom: 0.75rem;
+                &:before {
+                    content: '✔';
+                    position: absolute;
+                    left: 0;
+                    color: $primary;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .download-section {
+        border-top-color: $secondary;
+
+        .card-icon {
+            color: $secondary;
+        }
+
+        .btn-primary {
+            background-color: $primary;
+            border-color: $primary;
+            &:hover {
+                background-color: $primary-dark;
+                border-color: $primary-dark;
+            }
+        }
+
+        .btn-secondary {
+            background-color: $secondary;
+            border-color: $secondary;
+            color: $text-dark;
+            &:hover {
+                background-color: darken($secondary, 10%);
+                border-color: darken($secondary, 10%);
+            }
+        }
     }
 }

@@ -1,9 +1,15 @@
 .ImageCarousels {
-    background-color: $Light-Bg-Text;
+    background-color: $light-bg;
+    padding-bottom: $section-padding; // Pridaný padding, keďže je to posledná sekcia
 
-    .ResImg {
-        margin-top: 1.3em;
-        border: 2px solid rgba(0, 0, 0, 0.2);
-        border-radius: 0.7em;
+    .carousel-wrapper {
+        border-radius: $border-radius;
+        overflow: hidden;
+        box-shadow: $box-shadow;
+    }
+
+    .carousel-item img {
+        max-height: 600px;
+        object-fit: cover;
     }
 }

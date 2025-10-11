@@ -1,27 +1,46 @@
-.Scheduler{
-    background-color: $Dark-Bg-Text;
-    .row{
-        grid-gap: 2em;
-    }
-    .cards{
-        padding-top: 1em;
-        max-width: 15em;
-        min-width: 15em;
-        max-height: 18.1875em;
-        border-radius: 0.9em;
-        border: 2px solid lightgray;
-        background-color: darken($Dark-Bg-Text, 6%);
-    }
-    .img{
-        width: 10em;
-        height: 10em;
-    }
-}
+.Scheduler {
+    background-color: $light-bg;
 
-@media only screen and (max-width: 650x) {
-    .Scheduler{
-        .GG{
-            margin: 0 2em;
+    .schedule-card {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        background-color: $text-light;
+        padding: 1.5rem;
+        border-radius: $border-radius;
+        box-shadow: $box-shadow-light;
+        border: 1px solid $border-color;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: $box-shadow;
+        }
+
+        .card-icon {
+            flex-shrink: 0;
+            width: 70px;
+            height: 70px;
+            margin-right: 1.5rem;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+
+        .card-content {
+            .time {
+                font-size: 1.2rem;
+                font-weight: 700;
+                color: $primary-dark;
+                margin: 0;
+            }
+            p {
+                margin: 0;
+                font-size: 0.95rem;
+            }
         }
     }
 }

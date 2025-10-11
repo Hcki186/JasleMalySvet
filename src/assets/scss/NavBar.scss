@@ -1,0 +1,42 @@
+.navbar {
+  padding: 1rem 0;
+  background-color: $text-light;
+  box-shadow: $box-shadow-light;
+  transition: padding 0.3s ease;
+
+  .navbar-brand img {
+    transition: transform 0.3s ease;
+  }
+
+  .nav-link {
+    font-family: $font-primary;
+    font-weight: 600;
+    color: $text-dark;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: $border-radius;
+    transition: color 0.3s ease, background-color 0.3s ease;
+
+    &:hover {
+      color: $primary-dark;
+    }
+  }
+
+  .nav-link.router-link-active,
+  .nav-link.router-link-exact-active {
+    background-color: $primary;
+    color: $text-light;
+
+    &:hover {
+      background-color: $primary-dark;
+      color: $text-light;
+    }
+  }
+
+  .navbar-toggler {
+    border: none;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

@@ -1,12 +1,26 @@
-.LocationText{
-    background-color: $Dark-Bg-Text;
-    .Name{
-        text-align: center;
-        text-decoration: underline;
+.LocationText {
+    background-color: $text-light;
+
+    .location-icon {
+        font-size: 3rem;
+        color: $primary;
+        margin-bottom: 1rem;
     }
-    p{
-        text-align: center;
-        margin: 0 3em;
+
+    .section-title {
+        font-size: 2.5rem;
+        color: $text-dark;
+    }
+
+    .location-address {
+        font-size: 1.25rem;
+        font-weight: 500;
+        color: lighten($text-dark, 20%);
+        margin-bottom: 1.5rem;
+    }
+
+    .lead {
+        font-size: 1.1rem;
+        line-height: 1.8;
     }
 }
-

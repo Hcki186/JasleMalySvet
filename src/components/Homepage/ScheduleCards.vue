@@ -1,26 +1,32 @@
 <template>
-  <div class="Scheduler">
-    <div class="container-md Modul">
-      <div v-if="datas.length" class="GG">
-        <div class="container text-center">
-          <div class="row justify-content-center">
-            <div v-for="data in datas" :key="data.id" class="col cards">
-              <img :src="getImg(data.img)" alt="foto" class="img"> 
-              <h1 class="time">{{ data.time }}</h1>
-              <p>{{ data.description }}</p>
+  <div class="Scheduler bg-pattern">
+    <div class="container Modul">
+      <h2 class="section-title">Náš denný harmonogram</h2>
+      <p class="section-subtitle">Štrukturovaný deň plný hier, učenia a oddychu je kľúčom k spokojnosti našich najmenších.</p>
+
+      <div v-if="scheduleItems.length" class="row g-4">
+        <div v-for="item in scheduleItems" :key="item.id" class="col-md-6 col-lg-4 d-flex align-items-stretch">
+          <div class="schedule-card fade-in-up">
+            <div class="card-icon">
+              <img :src="getImg(item.img)" :alt="item.description">
+            </div>
+            <div class="card-content">
+              <h3 class="time">{{ item.time }}</h3>
+              <p>{{ item.description }}</p>
             </div>
           </div>
         </div>
       </div>
-      <div v-else>
-        <h1>No data available</h1>
+      <div v-else class="text-center">
+        <p>Načítavam harmonogram...</p>
       </div>
     </div>
   </div>
 </template>
 
-<script lang="ts">
-import { defineComponent, ref, onMounted } from 'vue';
+<script setup lang="ts">
+import { ref } from 'vue';
+import dbData from '../../../data/db.json';
 
 interface ScheduleData {
   id: number;
@@ -29,26 +35,9 @@ interface ScheduleData {
   description: string;
 }
 
-export default defineComponent({
-  setup() {
-    const datas = ref<ScheduleData[]>([]);
+const scheduleItems = ref<ScheduleData[]>(dbData.schedule);
 
-    onMounted(() => {
-      fetch('http://localhost:3000/schedule')
-        .then((res) => res.json())
-        .then((data: ScheduleData[]) => (datas.value = data))
-        .catch((err) => console.log(err.message));
-    });
-
-    const getImg = (imgPath: any) => {
-      return new URL(`/src/assets/img/Schedule/${imgPath}`, import.meta.url).toString();
+const getImg = (imgPath: string) => {
+  return new URL(`/src/assets/img/Schedule/${imgPath}`, import.meta.url).toString();
 };
-
-
-    return {
-      datas,
-      getImg,
-    };
-  }
-});
 </script>

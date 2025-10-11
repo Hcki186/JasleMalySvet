@@ -1,16 +1,18 @@
 <template>
-    <div class="MotivationalText">
-        <div class="container-md Modul">
-            <h1>
-                Našou prioritou je <br>
-                vytvoriť vášmu dieťaťu <br>
-                pociť domova a úsmev <br>
-                na tvári.
-            </h1>
+  <div class="MotivationalText bg-pattern">
+    <div class="container Modul">
+      <div class="row justify-content-center">
+        <div class="col-md-10 text-center fade-in-up">
+          <blockquote class="motivational-quote">
+            <i class="fas fa-quote-left"></i>
+            Našou prioritou je vytvoriť vášmu dieťaťu pocit domova a úsmev na tvári.
+            <i class="fas fa-quote-right"></i>
+          </blockquote>
         </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script setup lang="ts">
-
 </script>

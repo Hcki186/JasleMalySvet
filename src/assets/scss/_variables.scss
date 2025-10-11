@@ -1,12 +1,21 @@
+// COLORS
+$primary: #48D1CC; // Svetlá tyrkysová
+$primary-dark: #3aa8a3;
+$secondary: #FFD700; // Zlatá žltá
+$light-bg: #F8F9FA; // Veľmi svetlá sivá
+$dark-bg: #34495E; // Tmavomodrá bridlica
+$text-dark: #2c3e50; // Tmavá bridlica (pre text)
+$text-light: #ffffff;
+$border-color: #e0e0e0;
 
+// TYPOGRAPHY
+$font-primary: 'Poppins', sans-serif;
+$font-secondary: 'Nunito', sans-serif;
 
-$Light-Bg-Text: #F6E96B;
-$Dark-Bg-Text: #BEDC74;
+// SHADOWS & BORDERS
+$box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+$box-shadow-light: 0 4px 15px rgba(0, 0, 0, 0.05);
+$border-radius: 12px;
 
-
-$Welcom-Bg-Text: #A6E3E9;
-
-$NavBar-Bg: #71C9CE;
-
-$Welcome-Text-Color: #4b4a4a;
-$Text-Color: #4b4a4a;
+// SPACING
+$section-padding: 5rem 0;
