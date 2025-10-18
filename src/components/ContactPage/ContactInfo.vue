@@ -13,7 +13,7 @@
         <i class="fas fa-phone info-icon"></i>
         <div>
           <strong>Telefón</strong>
-          <p><a :href="'tel:' + contact.phones.zuzka">{{ contact.phones.zuzka }} Zuzana Lešková</a></p>
+          <p><a :href="'tel:' + contact.phones.zuzka">{{ contact.phones.zuzka }} Mgr. Zuzana Lešková</a></p>
           <p><a :href="'tel:' + contact.phones.bibiana">{{ contact.phones.bibiana }} Bibiana Štalmachová</a></p>
         </div>
       </div>
@@ -75,10 +75,10 @@ const originalContact = dbData.Contact[0];
 const modifiedContact = {
   ...originalContact,
   // ZMENENÁ ČASŤ - celé mená, Zuzana prvá
-  Owners: ['Zuzana Lešková', 'Bibiana Štalmachová'],
+  Owners: ['Mgr. Zuzana Lešková', 'Bibiana Štalmachová'],
   phones: { // Nová štruktúra pre telefónne čísla
-    zuzka: '0907763731',
-    bibiana: '0905309621'
+    zuzka: '0907 763 731',
+    bibiana: '0905 309 621'
   }
 };
 

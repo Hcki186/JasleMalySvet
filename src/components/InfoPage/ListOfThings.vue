@@ -12,7 +12,7 @@
               <h3>V jasliach poskytujeme</h3>
             </div>
             <ul>
-              <li>Individuálny pristup k Vášmu dieťaťu</li>
+              <li>Individuálny prístup k Vášmu dieťaťu</li>
               <li>Možnosť spania aj v doobedňajších hodinách</li>
               <li>Celodennú stravu, pitný režim a čerstvé ovocie</li>
               <li>Posteľnú bielizeň, uteráky a podbradníky</li>
@@ -29,9 +29,9 @@
             <ul>
               <li>Pohodlné prezuvky alebo protišmykové ponožky</li>
               <li>Pyžamko a obľúbenú hračku na spanie</li>
-              <li>Náhradne oblečenie</li>
-              <li>Fľašu na pitie</li>
-              <li>V pripade potreby flaša Na mlieko( susene mlieko,mlieko</li>
+              <li>Náhradné oblečenie</li>
+              <li>Fľaša na pitie</li>
+              <li>V prípade potreby flaša Na mlieko (sušené mlieko, čerstvé mlieko)</li>
               <li>V prípade potreby plienky a krém proti zapareninám</li>
             </ul>
             <p class="mt-3 text-center fw-bold">Všetky veci prosím označte menom dieťaťa.</p>

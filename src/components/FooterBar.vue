@@ -12,7 +12,7 @@
           <h5 class="footer-title">Kontakt</h5>
           <ul class="list-unstyled footer-contact">
             <li><i class="fas fa-map-marker-alt"></i> Bernolákova 17, 08001 Prešov</li>
-            <li><a :href="'tel:' + contactInfo.phones.zuzka"><i class="fas fa-phone"></i> {{ contactInfo.phones.zuzka }} Zuzana Lešková</a></li>
+            <li><a :href="'tel:' + contactInfo.phones.zuzka"><i class="fas fa-phone"></i> {{ contactInfo.phones.zuzka }} Mgr. Zuzana Lešková</a></li>
             <li><a :href="'tel:' + contactInfo.phones.bibiana"><i class="fas fa-phone"></i> {{ contactInfo.phones.bibiana }} Bibiana Štalmachová</a></li>
             <li><a :href="'mailto:' + contactInfo.email"><i class="fas fa-envelope"></i> {{ contactInfo.email }}</a></li>
           </ul>
@@ -42,17 +42,14 @@ interface ContactData {
   Owners: string[];
 }
 
-// ZÍSKANIE PÔVODNÝCH DÁT
 const originalContact = dbData.Contact[0];
 
-// APLIKÁCIA POŽADOVANÝCH ZMIEN
 const modifiedContact = {
   ...originalContact,
-  // ZMENENÁ ČASŤ - celé mená, Zuzana prvá
-  Owners: ['Zuzana Lešková', 'Bibiana Štalmachová'],
-  phones: { // Nová štruktúra pre telefónne čísla
-    zuzka: '0907763731',
-    bibiana: '0905309621'
+  Owners: ['Mgr. Zuzana Lešková', 'Bibiana Štalmachová'],
+  phones: {
+    zuzka: '0907 763 731',
+    bibiana: '0905 309 621'
   }
 };
 

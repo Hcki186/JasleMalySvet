@@ -2,12 +2,12 @@
     "Contact": [
         {
             "phone": "0910545454",
-            "email": "malysvet@gmail.com",
+            "email": "maly.svet17@gmail.com",
             "openHours":{
                 "day": ["Pondelok", "Utorok", "Streda", "Štvrtok", "Piatok", "Sobota", "Nedeľa"],
                 "time": ["7:00-16:30", "Zatvorené"]
             },
-            "Owners": ["Bibiana Štalmachová", "Zuzana Lešková"]
+            "Owners": ["Bibiana Štalmachová", "Mgr. Zuzana Lešková"]
 
         }
 
@@ -16,7 +16,7 @@
         {
             "id": 0,
             "img": "arrive.png",
-            "description": "Príchod detí, voľně aktivity",
+            "description": "Príchod detí, voľné aktivity",
             "time": "7:00-8:30"
         },
         {
