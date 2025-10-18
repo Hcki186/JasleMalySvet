@@ -12,6 +12,8 @@
               <h3>V jasliach poskytujeme</h3>
             </div>
             <ul>
+              <li>Individuálny pristup k Vášmu dieťaťu</li>
+              <li>Možnosť spania aj v doobedňajších hodinách</li>
               <li>Celodennú stravu, pitný režim a čerstvé ovocie</li>
               <li>Posteľnú bielizeň, uteráky a podbradníky</li>
               <li>Hygienické potreby (vreckovky, toaletný papier)</li>
@@ -27,7 +29,9 @@
             <ul>
               <li>Pohodlné prezuvky alebo protišmykové ponožky</li>
               <li>Pyžamko a obľúbenú hračku na spanie</li>
-              <li>Náhradné oblečenie a fľašu na pitie</li>
+              <li>Náhradne oblečenie</li>
+              <li>Fľašu na pitie</li>
+              <li>V pripade potreby flaša Na mlieko( susene mlieko,mlieko</li>
               <li>V prípade potreby plienky a krém proti zapareninám</li>
             </ul>
             <p class="mt-3 text-center fw-bold">Všetky veci prosím označte menom dieťaťa.</p>
@@ -48,6 +52,9 @@
             </a>
             <a href="/zdravotny.docx" download class="btn btn-secondary m-2">
               <i class="fas fa-file-medical me-2"></i> Zdravotný dotazník
+            </a>
+            <a href="/suhlas.pdf" download class="btn btn-danger m-2">
+              <i class="fas fa-file-pdf me-2"></i> Súhlas (GDPR)
             </a>
           </div>
         </div>

@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="col-lg-6 d-none d-lg-block">
-          <img src="../../assets/img/ObjectPhoto/BackGroundWelcomeImg2.png" alt="Hrajúce sa deti" class="hero-image fade-in-up">
+          <img src="../../assets/img/MalySvetLogo/Logo.png" alt="Logo Malý Svet" class="hero-image fade-in-up">
         </div>
       </div>
     </div>

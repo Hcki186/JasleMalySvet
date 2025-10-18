@@ -12,7 +12,7 @@
             </div>
             <div class="card-content">
               <h3 class="time">{{ item.time }}</h3>
-              <p>{{ item.description }}</p>
+              <p>{{ item.description === 'Prichod detí, voľné aktivity' ? 'Príchod detí, voľné aktivity' : item.description }}</p>
             </div>
           </div>
         </div>

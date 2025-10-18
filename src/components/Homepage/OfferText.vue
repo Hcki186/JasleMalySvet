@@ -2,7 +2,7 @@
   <div class="OfferText">
     <div class="container Modul">
       <h2 class="section-title">Čo naše jasle ponúkajú</h2>
-      <p class="section-subtitle">Poskytujeme komplexnú starostlivosť a služby, ktoré podporujú zdravý vývoj a spokojnosť vášho dieťaťa.</p>
+      <p class="section-subtitle mb-4">Poskytujeme komplexnú ale aj individuálnu starostlivosť a služby, ktoré podporujú zdravý vývoj a spokojnosť vášho dieťaťa.</p>
       <div class="row g-4 justify-content-center">
         <div class="col-md-6 col-lg-4 d-flex">
           <div class="offer-item fade-in-up">
