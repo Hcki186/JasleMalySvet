@@ -47,7 +47,7 @@
               <h3>Dokumenty na stiahnutie</h3>
             </div>
             <p>Tieto dokumenty si prosím stiahnite, vyplňte a prineste so sebou v prvý deň nástupu.</p>
-            <a href="/ziadost.docx" download class="btn btn-primary m-2">
+            <a href="/ziadost.doc" download class="btn btn-primary m-2">
               <i class="fas fa-file-word me-2"></i> Žiadosť o prijatie
             </a>
             <a href="/zdravotny.docx" download class="btn btn-secondary m-2">
